@@ -19,8 +19,16 @@ It is designed so users can install it easily, import it in Python, or run it di
 ---
 
 ## 📁 Project Structure
-
 ```text
+wenxi-ai/
+│
+├─ pyproject.toml
+├─ README.md
+└─ wenxi_ai/
+   ├─ __init__.py
+   └─ cli.py
+
+
 wenxi-ai-tools/
 │
 ├── wenxi_ai_tools/
