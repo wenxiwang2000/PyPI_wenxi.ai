@@ -17,7 +17,8 @@ It is designed so users can install it easily, import it in Python, or run it di
 - ⚡ Simple structure, easy to extend later for tools like CSV cleaner, SmartGut, or IFA
 
 ---
-
+python -m build
+python -m twine upload dist/*
 ## 📁 Project Structure
 ```text
 new .toml structure--new pypi version
